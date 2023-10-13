@@ -41,6 +41,11 @@
     color: #000000
 }
 
+#map_text {
+    text-align: center;
+    color: #000000
+}
+
 #frame {
     width: 100%; 
 }
