@@ -1,0 +1,101 @@
+@media only screen and (max-width: 840px) {
+    /* Мобильные устройства */
+    #nav_men {
+        display: grid;
+        padding: 1rem;
+        background: rgb(46,139,87);
+        justify-content: center;
+    }
+  }
+
+@media only screen and (min-width: 840px) and (max-width: 1024px) {
+    /* Таблеты */
+    #nav_men {
+        display: flex;
+        padding: 1rem;
+        background: rgb(46,139,87);
+        justify-content: center;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    /* Десктоп */
+    #nav_men {
+        display: flex;
+        padding: 1rem;
+        background: rgb(46,139,87);
+        justify-content: center;
+    }   
+  }
+
+#ad {
+    max-width: 600px;
+    max-height: 600px;
+}
+
+#map {
+    text-align: center;
+    margin: 1rem;
+    color: #000000
+}
+
+#up {
+    display: grid;
+    color: rgb(46,139,87);
+    justify-content: center;
+}
+
+a {
+    color: #FFFFFF;
+    margin: 1.5rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: #FFFFFF;
+    text-align: justify;
+}
+body {
+    background: #FFFFFF;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 1rem;
+}
+
+.align_center {
+    text-align: center;
+    
+}
+
+.grid {
+    display: grid;
+    background: rgb(46,139,87);
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 18px;
+}
+
+.grid2 {
+    display: grid;
+    border: 3px solid green;
+    border-radius: 0.5rem; 
+    /* background: rgb(46,139,87); */
+    margin: 1rem;
+    padding: 1rem;
+    /* border-radius: 0.5rem; */
+    font-size: 18px;
+}
