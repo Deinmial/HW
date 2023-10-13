@@ -41,6 +41,11 @@
     color: #000000
 }
 
+#map_text {
+    text-align: center;
+    color: #000000
+}
+
 #frame {
     width: 100%; 
 }
@@ -98,9 +103,7 @@ h3 {
     display: grid;
     border: 3px solid green;
     border-radius: 0.5rem; 
-    /* background: rgb(46,139,87); */
     margin: 1rem;
     padding: 1rem;
-    /* border-radius: 0.5rem; */
     font-size: 18px;
 }
