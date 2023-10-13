@@ -39,6 +39,10 @@
     color: #000000
 }
 
+#frame {
+    width: 100%; 
+}
+
 #up {
     display: grid;
     color: rgb(46,139,87);
@@ -76,9 +80,9 @@ h3 {
 }
 
 .align_center {
+    text-align: center;
     width: 100%; 
     height: auto;
-    text-align: center;  
 }
 
 .grid {
